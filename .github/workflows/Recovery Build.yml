@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'git@github.com:Jayeudypdx/android_device_samsung_gta8wifia'
+        default: 'git@github.com:Jayeudypdx/android_device_samsung_gta8wifi'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
