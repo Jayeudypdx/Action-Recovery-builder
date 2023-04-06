@@ -6,11 +6,11 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'git@github.com:Jayeudypdx/platform_manifest_twrp_aosp'
+        default: 'git@github.com:Jayeudypdx/manifest_pb'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'android-12.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_gta8wifi'
+        default: 'omni_gta8wifi'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
